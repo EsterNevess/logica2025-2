@@ -1,6 +1,6 @@
 programa
 {
-	real nota1, nota2, media
+	real nota1, nota2, nota3, media
 	
 	funcao inicio()
 	{
@@ -8,8 +8,10 @@ programa
 		leia(nota1)
 		escreva("Digite a sua segunda nota:")
 		leia(nota2)
+		escreva("Digite a sua terceira nota:")
+		leia(nota3)
 
-		media = (nota1 + nota2) / 2
+		media = (nota1 + nota2 + nota3) / 3
 		escreva(media)
 		
 		
@@ -20,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 0; 
+ * @POSICAO-CURSOR = 268; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
