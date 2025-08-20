@@ -4,7 +4,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vetor
+		inteiro vetor[10]
+
+		para(inteiro i=0; i < 10; i++){
+			vetor[i] = Util.sorteia(1, 1000)
+		}
+
+		para(inteiro i=0; i < 10; i++){
+			escreva(vetor[i],"\n")	
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -12,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 72; 
+ * @POSICAO-CURSOR = 212; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
